@@ -1,0 +1,13 @@
+.icon {
+  font-size: 1.4rem;
+  display: flex;
+
+  &.basketIcon,
+  &.emailIcon {
+    font-size: 1.8rem;
+  }
+
+  &.listIcon {
+    cursor: pointer;
+  }
+}

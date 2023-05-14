@@ -1,0 +1,124 @@
+{
+  "productCategories": [
+    {
+      "id": 1,
+      "title": "کالای دیجیتال",
+      "parent": null,
+      "status": true
+    },
+    {
+      "id": 2,
+      "title": "لوازم آرایشی",
+      "parent": null,
+      "status": true
+    },
+    {
+      "title": "لپ تاپ",
+      "parent": 1,
+      "status": 1,
+      "id": 3
+    },
+    {
+      "title": "ورزش وسلامت",
+      "parent": 0,
+      "status": 1,
+      "id": 4
+    },
+    {
+      "title": "موبایل",
+      "parent": 1,
+      "status": 1,
+      "id": 5
+    },
+    {
+      "title": "گوشی موبایل",
+      "parent": 5,
+      "status": 1,
+      "id": 6
+    },
+    {
+      "id": 7,
+      "title": "گوشی سامسونگ A73",
+      "parent": 6,
+      "status": 1
+    },
+    {
+      "title": "لباس و پوشاک",
+      "parent": 0,
+      "status": 1,
+      "id": 8
+    },
+    {
+      "id": 9,
+      "title": "لباس مردانه",
+      "parent": 8,
+      "status": 1
+    },
+    {
+      "title": "لباس زنانه",
+      "parent": 8,
+      "status": 1,
+      "id": 10
+    },
+    {
+      "title": "کفش",
+      "parent": 0,
+      "status": 1,
+      "id": 11
+    },
+    {
+      "id": 12,
+      "title": "کفش اسپورت مردانه",
+      "parent": 9,
+      "status": 1
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "لپ تاپ ایسوس ",
+      "catId": 3,
+      "image": "",
+      "alt": "",
+      "introduction": "",
+      "status": 1
+    }
+  ],
+  "employee": [
+    {
+      "id": 1,
+      "name": "Shahab Shahidi",
+      "email": "shahb@gmail.com",
+      "phone": "1-770-736-8031 x56442",
+      "active": true
+    },
+    {
+      "id": 2,
+      "name": "sonya",
+      "email": "sonya@gmail.com",
+      "phone": "24242342342314",
+      "active": false
+    },
+    {
+      "name": "arwan shahidi",
+      "email": "arwan@gmail.com",
+      "phone": "09381223347",
+      "active": true,
+      "id": 3
+    },
+    {
+      "name": "test1",
+      "email": "test1@gmail.com",
+      "phone": "09189863460",
+      "active": false,
+      "id": 5
+    },
+    {
+      "name": "amir",
+      "email": "amir@gmail.com",
+      "phone": "",
+      "active": true,
+      "id": 6
+    }
+  ]
+}

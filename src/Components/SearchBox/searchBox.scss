@@ -1,0 +1,34 @@
+.search {
+
+  &--box {
+    width: 13rem;
+  }
+
+  &--form {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 2rem;
+    position: relative;
+
+    .searchIcon{
+      position: absolute;
+      top:50%;
+      left:.5rem;
+      transform: translateY(-50%);
+      color:var(--border-color);
+      font-size: 1.2rem;
+    }
+  }
+
+  &--input {
+    display: block;
+    width: 100%;
+    height: 100%;
+    outline: none;
+    border-radius: .3rem;
+    border:1px solid var(--border-color);
+    padding: .2rem .5rem .2rem 1rem;
+  }
+}
+

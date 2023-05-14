@@ -1,0 +1,35 @@
+.sidebar {
+  position: fixed;
+  right: var(--sidebar-offset);
+  top: 0;
+  z-index: var(--top-level);
+  width: var(--sidebar-width);
+  height: 100vh;
+  background-color: var(--sidebar-bg);
+  padding-top: 2rem;
+  transition: var(--transition);
+
+  &--menu {
+    padding: 0;
+    margin: 0;
+  }
+
+  &--item {
+
+  }
+
+  &--link {
+    font-size: 1.3rem;
+    font-weight: bold;
+    display: flex;
+    padding: .3rem 1rem;
+
+    &:hover{
+      color:inherit;
+    }
+
+    &.active {
+      background-color: var(--sub-active);
+    }
+  }
+}

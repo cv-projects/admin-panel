@@ -1,0 +1,25 @@
+.layouts {
+
+  &.is__active {
+    .sidebar {
+      right: 0;
+    }
+
+    .main {
+      padding-right: var(--sidebar-width);
+      transition: var(--transition);
+    }
+  }
+}
+
+.main {
+  transition: var(--transition);
+
+  &--header {
+
+  }
+
+  &--content {
+
+  }
+}
