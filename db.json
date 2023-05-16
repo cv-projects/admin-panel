@@ -27,7 +27,7 @@
     {
       "title": "موبایل",
       "parent": 1,
-      "status": 1,
+      "status": 0,
       "id": 5
     },
     {
@@ -71,6 +71,72 @@
       "title": "کفش اسپورت مردانه",
       "parent": 9,
       "status": 1
+    },
+    {
+      "title": "ساعت",
+      "parent": 0,
+      "status": 1,
+      "id": 13
+    },
+    {
+      "title": "ساعت مچی هوشمند",
+      "parent": 13,
+      "status": 1,
+      "id": 14
+    },
+    {
+      "title": "کالای برق",
+      "parent": 0,
+      "status": 1,
+      "id": 15
+    },
+    {
+      "title": "کابل سیم کشی",
+      "parent": 15,
+      "status": 1,
+      "id": 16
+    },
+    {
+      "title": "لامپ استوانه ای ",
+      "parent": 15,
+      "status": 1,
+      "id": 17
+    },
+    {
+      "title": "شلوار مردانه",
+      "parent": 9,
+      "status": 1,
+      "id": 18
+    },
+    {
+      "id": 19,
+      "title": "لوازم التحریر",
+      "parent": null,
+      "status": 1
+    },
+    {
+      "id": 20,
+      "title": "دفتر 100 برگ نقاشی",
+      "parent": 19,
+      "status": 1
+    },
+    {
+      "id": 21,
+      "title": "میز تاشو",
+      "parent": 19,
+      "status": 1
+    },
+    {
+      "title": "گوشی سامسونگ a73",
+      "parent": 6,
+      "status": 1,
+      "id": 22
+    },
+    {
+      "id": 23,
+      "title": "گوشی سامسونگ S23 اولترا",
+      "parent": 6,
+      "status": 1
     }
   ],
   "products": [
@@ -82,43 +148,6 @@
       "alt": "",
       "introduction": "",
       "status": 1
-    }
-  ],
-  "employee": [
-    {
-      "id": 1,
-      "name": "Shahab Shahidi",
-      "email": "shahb@gmail.com",
-      "phone": "1-770-736-8031 x56442",
-      "active": true
-    },
-    {
-      "id": 2,
-      "name": "sonya",
-      "email": "sonya@gmail.com",
-      "phone": "24242342342314",
-      "active": false
-    },
-    {
-      "name": "arwan shahidi",
-      "email": "arwan@gmail.com",
-      "phone": "09381223347",
-      "active": true,
-      "id": 3
-    },
-    {
-      "name": "test1",
-      "email": "test1@gmail.com",
-      "phone": "09189863460",
-      "active": false,
-      "id": 5
-    },
-    {
-      "name": "amir",
-      "email": "amir@gmail.com",
-      "phone": "",
-      "active": true,
-      "id": 6
     }
   ]
 }

@@ -8,6 +8,7 @@
   background-color: var(--sidebar-bg);
   padding-top: 2rem;
   transition: var(--transition);
+  overflow-y: auto;
 
   &--menu {
     padding: 0;
@@ -19,17 +20,20 @@
   }
 
   &--link {
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     font-weight: bold;
     display: flex;
-    padding: .3rem 1rem;
+    padding: .5rem 1rem;
+    word-spacing: -.2rem;
+    color:var(--btn--custom-color);
 
     &:hover{
-      color:inherit;
+      color:var(--btn--custom-color);
     }
 
     &.active {
       background-color: var(--sub-active);
+      color:var(--btn--custom-color);
     }
   }
 }

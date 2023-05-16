@@ -1,1 +1,138 @@
+body {
+  background-color: #f5f5f5;
+}
 
+.page--title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: var(--text--color-panel);
+  word-spacing: -.23rem;
+}
+
+.table {
+  &-responsive {
+    min-height: 20rem;
+  }
+
+  &--container {
+    padding: 1rem 1rem;
+    border-radius: var(--border-radius-box);
+    background-color: #fff;
+    margin-top: 2rem;
+  }
+
+  th{
+    font-size: 1rem;
+  }
+
+  td{
+    font-weight: 400;
+    font-size: .925rem;
+  }
+
+}
+
+.btn--custom {
+  background-color: var(--btn--custom-color) !important;
+  color: #fff !important;
+  outline: none !important;
+  border: 0 !important;
+  box-shadow: none !important;
+  display: flex !important;
+  align-items: center !important;
+  padding: .35rem .75rem !important;
+  border-radius: .5rem !important;
+  text-decoration: none !important;
+  font-size: 0.825rem !important;
+
+  &:hover,
+  &:focus,
+  &:active {
+    background-color: var(--btn--custom-color) !important;
+    color: #fff !important;
+    outline: none !important;
+    border: 0 !important;
+    box-shadow: none !important;
+  }
+
+  &::after {
+    display: none !important;
+  }
+}
+
+/* dropdown customize start */
+.dropdown {
+
+  &-menu {
+    text-align: right !important;
+  }
+
+  &-item {
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+
+    &.active,
+    &:active {
+      color: var(--btn--custom-color) !important;
+      text-decoration: none;
+      background-color: var(--sidebar-bg) !important;
+    }
+
+    .icon {
+      font-size: 1rem;
+    }
+  }
+
+  .action {
+
+
+    &--name {
+      font-size: 1rem;
+    }
+  }
+
+}
+
+/* dropdown customize end */
+
+/* pagination customize start */
+.dataTables--length{
+
+  label{
+    font-size: 1rem;
+    color:var(--btn--custom-color);
+  }
+}
+.pagination {
+
+  &--select {
+    box-shadow: none;
+
+    display: inline-block;
+    //width: 100%!important;
+    height: calc(1.5em + 0.5rem + 2px)!important;
+    padding: 0.375rem 2rem 0.375rem 0.75rem !important;
+    font-size: 1.1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    vertical-align: middle;
+    background: url('../../../public/assets/icons/select__icon.svg') no-repeat right 0.75rem center/.7rem .9rem;
+    background-color: #fff;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    box-shadow: none!important;
+
+    &:focus,
+    &:active,
+    &:hover{
+      border: 1px solid #ced4da!important;
+    }
+  }
+}
+
+/* pagination customize end */

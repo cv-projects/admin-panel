@@ -13,12 +13,12 @@ const Sidebar = () => {
                     </NavLink>
                 </li>
                 <li className="sidebar--item">
-                    <NavLink to="/product-category" className="sidebar--link">
+                    <NavLink to="/market/category" className="sidebar--link">
                         دسته بندی محصولات
                     </NavLink>
                 </li>
                 <li className="sidebar--item">
-                    <NavLink to="/products" className="sidebar--link">
+                    <NavLink to="/market/products" className="sidebar--link">
                         محصولات
                     </NavLink>
                 </li>

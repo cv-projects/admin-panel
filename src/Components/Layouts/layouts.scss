@@ -3,11 +3,22 @@
   &.is__active {
     .sidebar {
       right: 0;
+      box-shadow: 0 0 34px -1px #ccc;
     }
 
     .main {
-      padding-right: var(--sidebar-width);
       transition: var(--transition);
+
+      &--header{
+        padding-right: var(--sidebar-width);
+        @media(min-width: 992px) {
+          padding-right: 0;
+        }
+      }
+
+      @media(min-width: 992px) {
+        padding-right: var(--sidebar-width);
+      }
     }
   }
 }
@@ -20,6 +31,6 @@
   }
 
   &--content {
-
+    padding: 2rem 1rem;
   }
 }
